@@ -1,0 +1,177 @@
+body{
+    background-color: #f4f4f4;
+}
+#header{
+    width: 1240px;
+    height: 80px;
+    margin: auto;
+}
+#header h2{
+    font-size: 24px;
+    line-height: 80px;
+    color: #008cff;
+}
+#header .head-car span{
+    font-size: 24px;
+    color: #6a6a6a;
+    line-height: 80px;
+    position: relative;
+}
+#header .head-car{
+    position: relative;
+}
+#header .head-car .head-num{
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f10000;
+    font-size: 9px;
+    line-height: 16px;
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    right: -5px;
+}
+#header .head-car span{
+    font-size: 24px;
+    color: #6a6a6a;
+    line-height: 80px;
+}
+#header .head-myimg a span{
+    font-size: 22px;
+    color: #666666;
+    line-height: 80px;
+    margin: 0 15px;
+}
+#header .head-myimg{
+    position: relative;
+}
+#header .head-myimg ul{
+    text-align: center;
+    background-color: #fff;
+    width: 100px;
+    position: absolute;
+    top: 60px;
+    left: -20px;
+    display: none;
+}
+#header .head-myimg:hover ul{
+    display: block;
+}
+#header .head-myimg ul li a:hover{
+    color: #008cff;
+}
+#header .head-myimg ul li a{
+    line-height: 30px;
+    color: #515151;
+    font-size: 14px;
+}
+#header .header-input{
+    height: 30px;
+    width: 170px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    margin-top: 24px;
+    border-radius: 15px;
+}
+#header .header-input input{
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 120px;
+    margin: 5px 0 0 15px;
+}
+#header .header-input a span{
+    font-size: 14px;
+    color: #666666;
+}
+#header .header-list-center li{
+    float: left;
+    position: relative;
+}
+#header .header-list-center li a{
+    float: left;
+    line-height: 80px;
+    margin: 0 15px;
+    color: #000;
+}
+#header .header-list-center li:hover a{
+    color: #008cff;
+}
+#header .header-list-center .start ol{
+    width: 1240px;
+    height: 240px;
+    background-color: #fff;
+    position: absolute;
+    display: none;
+}
+#header .header-list-center .start ol li{
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+}
+#header .header-list-center .start ol li img{
+    width: 130px;
+    margin-top: 40px;
+}
+#header .header-list-center .start ol li p{
+    font-size: 10px;
+    line-height: 20px;
+}
+#header .header-list-center .start ol li span{
+    font-size: 10px;
+    line-height: 20px;
+}
+#header .header-list-center .header-phone-start0 ol{
+    top: 70px;
+    left: -278px;
+    display: none;
+}
+#header .header-list-center .header-phone-start0:hover ol{
+    display: block;
+}
+#header .header-list-center .header-phone-start1 ol{
+    top: 70px;
+    left: -340px;
+}
+#header .header-list-center .header-phone-start1:hover ol{
+    display: block;
+}
+#header .header-list-center .header-phone-start2 ol{
+    top: 70px;
+    left: -402px;
+}
+#header .header-list-center .header-phone-start2:hover ol{
+    display: block;
+}
+#header .header-list-center .header-phone-start3 ol{
+    top: 70px;
+    left: -464px;
+}
+#header .header-list-center .header-phone-start3:hover ol{
+    display: block;
+}
+#header .header-list-center .header-end{
+    position: relative;
+}
+#header .header-list-center .header-end div{
+    width: 1240px;
+    position: absolute;
+    top: 70px;
+    left: -900px;
+    display: none;
+}
+#header .header-list-center .header-end:hover div{
+    display: block;
+}
+#header .header-list-center .header-end img{
+    width: 100%;
+}
+
+
+
+
+
+
+

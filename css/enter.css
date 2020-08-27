@@ -1,0 +1,165 @@
+/* 登录 */
+/* body{
+    background-image: url(../img/Flyme_账号_-_登录/ia_100000000256.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+} */
+.enter-header{
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+}
+.enter-header a{
+    display: block;
+    width: 1240px;
+    margin: auto;
+    text-align: left;
+    background-color: #fff;
+}
+.enter-header a span{
+    line-height: 80px;
+    font-size: 20px;
+    color: #1eb9ee;
+}
+.enter{
+    height: 90%;
+    width: 100%;
+    position: relative;
+}
+.enter .enter-bgi{
+    width: 100%;
+    float: left;
+    /* position: fixed; */
+}
+/* 登录框 */
+.enter-box{
+    height: 320px;
+    width: 370px;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    right: 500px;
+    border: 1px solid #9c9290;
+    box-shadow: #9c9290 5px 5px 5px;
+}
+.enter-box h2{
+    margin-top: 70px;
+    font-size: 22px;
+    color: #515151;
+}
+.enter-box .enter-number{
+    width: 300px;
+    height: 46px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    margin: auto;
+    margin-top: 40px;
+}
+.enter-box .enter-number a{
+    line-height: 46px;
+    margin-left: 16px;
+    margin-right: 8px;
+    color: #808080;
+}
+/* 需要加点击事件 */
+.enter-box .enter-number span{
+    display: block;
+    margin-top: 13px;
+    line-height: 20px;
+    color: #b2b2b2;
+    border-right: 1px solid #b2b2b2;
+    padding-right: 6px;
+}
+.enter-box .enter-number input{
+    width: 200px;
+    margin-right: 12px;
+    line-height: 46px;
+    float: right;
+    outline: none;
+    border: none;
+}
+.enter-box .enter-load{
+    height: 46px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #387aff;
+}
+.enter-box .enter-load a{
+    float: left;
+    width: 300px;
+    height: 46px;
+    color: #fff;
+    line-height: 46px;
+}
+.enter-box .enter-end{
+    width: 300px;
+    margin: auto;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.enter-box .enter-end a{
+    color: #387aff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.enter-all{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+.enter-all .enter-all-top{
+    width: 1240px;
+    margin: auto;
+    line-height: 50px;
+}
+.enter-all .enter-all-top h6{
+    margin: 0 5px;
+}
+.enter-all .enter-all-top h6 span{
+    margin: 0 5px;
+}
+.enter-all .enter-all-top p a{
+    text-align: center;
+    width: 64px;
+    height: 30px;
+    background-color: #32a5e7;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.enter-all .enter-all-bottom{
+    width: 1240px;
+    margin: auto;
+    line-height: 50px;
+    font-size: 10px;
+    color: #7f7f7f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,136 @@
+.head-box{
+    height: 0px;
+    position: relative;
+    z-index: 9999;
+}
+.head-link .out:hover .head-box{
+    height: 380px;
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.head-box .head-phone{
+    width: 1240px;
+    margin: auto;
+    display: none;
+}
+.head-box .head-phone ul{
+    margin-left: 50px;
+}
+.head-box .head-phone ul li{
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+}
+.head-box .head-phone ul li img{
+    height: 140px;
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+#head{
+    height: 80px;
+    width: 1240px;
+    margin: auto;
+    /* position: fixed; */
+    top: 0;
+    z-index: 5;
+    /* border: 1px solid red; */
+}
+#head #head-logo{
+    line-height: 80px;
+    font-size: 24px;
+    float: left;
+    color: #028bfd;
+    font-weight: bolder;
+}
+#head .head-car{
+    float: right;
+    margin: 27px 0 0 20px;
+    position: relative;
+}
+#head .head-car span{
+    font-size: 24px;
+    /* color: #fff; */
+}
+#head .head-car .head-num{
+    height: 15px;
+    width: 15px;
+    background-color: #ce0000;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    line-height: 15px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+#head .head-myimg{
+    position: relative;
+}
+#head .head-myimg:hover .xuan{
+    display: block;
+    z-index: 2;
+}
+#head .head-myimg .xuan{
+    position: absolute;
+    top: 60px;
+    right: -10px;
+    height: 180px;
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+    background-color: #fff;
+    display: none;
+}
+#head .head-myimg .xuan li a{
+    line-height: 30px;
+    color: #515151;
+    font-size: 14px;
+}
+#head .head-myimg a span{
+    font-size: 22px;
+    margin: -5px 0 0;
+    float: right;
+    padding: 30px 0 0 8px;
+}
+#head #head-item{
+    height: 30px;
+    width: 170px;
+    background-color: #fff;
+    border: 1px solid #b1b1b1;
+    float: right;
+    margin: 25px 5px 0 10px;
+    border-radius: 15px;
+}
+#head #head-item input{
+    border: none;
+    height: 20px;
+    width: 127px;
+    margin: 5px 0 0 15px;
+    outline: none;
+}
+#head #head-link{
+    float: right;
+}
+#head #head-link li{
+    float: left;
+    padding: 30px 10px 30px ;
+}
+#head #head-link li:hover a{
+    color: #038aff;
+    
+}
+
+

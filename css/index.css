@@ -1,0 +1,352 @@
+/* 福利 */
+body{
+    background-color: #f4f4f4;
+}
+/* 轮播图 */
+.banner {
+    height: 600px;
+    width: 100%;
+    margin: 50px auto;
+    position: relative;
+}
+.banner-img li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner .banner-img .banner-img0{
+    display: block;
+    height: 600px;
+    width: 100%;
+}
+.banner .num {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 20px;
+}
+.banner .num li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.banner .current{
+    background-color: red !important;
+}
+.fare{
+    height: 280px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.fare ul{
+    width: 1240px;
+    height: 280px;
+    margin: auto;
+    margin-top: 50px;
+}
+.fare ul li{
+    float: left;
+    text-align: center;
+    margin: 0 70px;
+}
+.fare ul li img{
+    width: 140px;
+    height: 140px;
+}
+.fare ul li p{
+    font-size: 22px;
+}
+.fare ul li span{
+    font-size: 14px;
+    color: #9c9290;
+}
+.fare ul li:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* 手机17 */
+.phone17{
+    height: 505px;
+    text-align: center;
+    cursor: pointer;
+}
+.phone17 p{
+    font-size: 30px;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.phone17 .green{
+    height: 450px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -50%;
+    overflow: hidden;
+}
+.phone17 .green .img{
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -1280px;
+    margin-top: -225px;
+}
+.phone17 .green .img:hover{
+    opacity: 0.9;
+}
+/* 赠品 */
+.gift{
+    height: 1020px;
+    width: 1240px;
+    margin: auto;
+}
+.gift div{
+    float: left;
+    height: 610px;
+    width: 600px;
+    background-color: #fff;
+    margin: 5px 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.gift div span{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ff568d;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.gift div h3{
+   margin-top: 60px;
+   font-size: 28px;
+}
+.gift div p{
+    font-size: 18px;
+    line-height: 40px;
+}
+.gift div a{
+    color: #c4002d;
+    display: block;
+    margin: auto;
+}
+.gift div img{
+    height: 400px;
+}
+.gift div:hover{
+    box-shadow: #9c9290 5px 5px 5px;
+}
+.gift ul li{
+    float: left;
+    width: 300px;
+    height: 375px;
+    background-color: #fff;
+    margin: 5px 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.gift ul li img{
+    width: 180px;
+    margin-top: 50px;
+}
+.gift ul li h3{
+    margin-top: 30px;
+}
+.gift ul li p{
+    line-height: 30px;
+    font-size: 12px;
+    color: #8d9691;
+}
+.gift ul li a{
+    color: #c4002d;
+    font-size: 18px;
+}
+.gift ul li:hover{
+    box-shadow: #9c9290 5px 5px 5px;
+}
+/* 魅族声学 */
+.sound{
+    width: 1240px;
+    margin: auto;
+    overflow: hidden;
+}
+.sound ul{
+    width: 1250px;
+    margin: auto;
+}
+.sound ul li{
+    float: left;
+    width: 300px;
+    height: 375px;
+    background-color: #fff;
+    margin: 10px 5px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.sound ul .sound-first{
+    width: 300px;
+    position: relative;
+}
+.sound ul .sound-first img{
+    width: 300px;
+    position: absolute;
+    left: 0;
+}
+.sound ul .sound-first div{
+    position: absolute;
+    top: 270px;
+    width: 300px;
+}
+.sound ul .sound-first h3{
+    font-size: 22px;
+    color: #fff;
+}
+.sound ul .sound-first p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.sound ul .sound-first span{
+    font-size: 18px;
+    color: #edcc6b;
+}
+.sound ul .sound-two img{
+    width: 220px;
+    margin-top: 40px;
+}
+.sound ul .sound-two h3{
+    font-size: 16px;
+    color: #000;
+}
+.sound ul .sound-two p{
+    font-size: 14px;
+    color: #99979a;
+}
+.sound ul .sound-two span{
+    font-size: 16px;
+    color: #c60240;
+}
+.sound ul .sound-two:hover{
+    box-shadow: #9c9290 5px 5px 5px;
+}
+/* 社区热帖 */
+.oschina{
+    height: 890px;
+    width: 1240px;
+    margin: auto;
+}
+.oschina h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.oschina ul{
+    width: 1260px;
+    overflow: hidden;
+}
+.oschina ul li{
+    float: left;
+    height: 390px;
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.oschina ul li:hover{
+    box-shadow: #9c9290 5px 5px 5px;
+}
+.oschina ul li .oschina-top{
+    width: 300px;
+}
+.oschina ul li .oschina-small{
+    width: 35px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.oschina ul li span{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: #4e504d;
+}
+.oschina ul li p{
+    font-size: 14px;
+    color: #4b4c44;
+    line-height: 27px;
+    display: block;
+    margin: 0 10px;
+}
+.oschina ul li h6{
+    font-size: 12px;
+    color: #989b92;
+    position: absolute;
+    top: 310px;
+    left: 10px;
+}
+/* Flyme */
+.flyme{
+    height: 600px;
+}
+.flyme h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.flyme ul{
+    width: 1240px;
+    margin: auto;
+}
+.flyme ul li{
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.flyme ul li:hover{
+    box-shadow: #9c9290 3px 3px 3px;
+}
+.flyme ul .flyme-one img{
+    width: 615px;
+    height: 245px;
+}
+.flyme ul .flyme-other{
+    width: 303px;
+    height: 245px;
+    background-color: #fff;
+}
+.flyme ul .flyme-other img{
+    width: 303px;
+}
+.flyme ul .flyme-other p{
+    line-height: 55px;
+    font-size: 14px;
+    color: #5d5040;
+}
+
+
+
+
+
+
+
+
+
+
+
+

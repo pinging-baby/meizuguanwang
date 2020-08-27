@@ -1,0 +1,110 @@
+body{
+    background-color: #f4f4f4;
+}
+.foot{
+    height: 246px;
+    background-color: #fff;
+}
+.foot .foot-top{
+    height: 143px;
+    width: 1240px;
+    margin: auto;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #eeeeee;
+}
+.foot .foot-top .fl li{
+    float: left;
+    text-align: center;
+    margin: 0 50px;
+}
+.foot .foot-top .fl li a span{
+    font-size: 32px;
+    color: #b8b8c0;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+.foot .foot-top .fl li a p{
+    font-size: 12px;
+    color: #9e929e;
+}
+.foot .foot-top .fr{
+    text-align: right;
+}
+.foot .foot-top .fr p{
+    margin-top: 36px;
+    color: #949e9f;
+    font-size: 12px;
+}
+.foot .foot-top .fr h4{
+    color: #088aff;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foot .foot-top .fr span{
+    display: block;
+    float: right;
+    background-color: #088aff;
+    height: 30px;
+    width: 88px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff7ff;
+}
+.foot .foot-bottom{
+    width: 1240px;
+    margin: auto;
+}
+.foot .foot-bottom .fl li{
+    float: left;
+    font-size: 12px;
+    color: #9e9a9b;
+    border-right: 1px solid #d6d6d6;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.foot .foot-bottom  .fl li a{
+    margin: 0 15px;
+}
+.foot .foot-bottom  .fl .one{
+    border: none;
+    margin-left: 0;
+}
+.foot .foot-bottom  .fl .last{
+    border: none;
+    margin-left: 15px;
+}
+.foot .foot-bottom .foot-end  p{
+    font-size: 10px;
+    color: #a494ae;
+}
+.foot .foot-bottom .foot-end  a{
+    float: right;
+}
+.foot .foot-bottom .foot-end  a i{
+    font-style: normal;
+    margin: 10px;
+    color: #eeeeee;
+}
+.foot .foot-bottom .foot-end  a span{
+    color: #a6a6a6;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
